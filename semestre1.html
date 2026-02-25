@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Average Calculator</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="th (3).jpeg" alt="Horizon School of Digital Technology Logo" class="logo">
+        </div>
+        <h1>Welcome to Horizon School of Digital Technology</h1>
+    </header>
+
+    <!-- Other content of the site -->
+
+    <script src="script.js"></script>
+
+    <div class="container">
+        <h1>University Average Calculator</h1>
+
+        <form id="averageForm">
+              <table border="0">
+                <tr>
+                    <th>Module</th>
+                    <th>Exam</th>
+                    <th>DS</th>
+                    <th>TP</th>
+                </tr>
+
+                <!-- Analysis Module -->
+                <tr>
+                    <td>Analysis</td>
+                    <td><input type="number" id="analysis_exam" placeholder="Exam (70%)" required step="0.25"></td>
+                    <td><input type="number" id="analysis_ds" placeholder="DS (20%)" required step="0.25"></td>
+                    <td><input type="number" id="analysis_tp" placeholder="TP (10%)" required step="0.25"></td>
+                </tr>
+
+                <!-- Algebra Module -->
+                <tr>
+                    <td>Algebra</td>
+                    <td><input type="number" id="algebra_exam" placeholder="Exam (70%)" required step="0.25"></td>
+                    <td><input type="number" id="algebra_ds" placeholder="DS (20%)" required step="0.25"></td>
+                    <td><input type="number" id="algebra_tp" placeholder="TP (10%)" required step="0.25"></td>
+                </tr>
+
+                <!-- Algorithmique Module -->
+                <tr>
+                    <td>Algorithmique</td>
+                    <td><input type="number" id="algorithm_exam" placeholder="Exam (70%)" required step="0.25"></td>
+                    <td><input type="number" id="algorithm_ds" placeholder="DS (20%)" required step="0.25"></td>
+                    <td><input type="number" id="algorithm_tp" placeholder="TP (10%)" required step="0.25"></td>
+                </tr>
+
+                <!-- Workshop C Module -->
+                <tr>
+                    <td>Workshop C</td>
+                    <td><input type="number" id="workshop_exam" placeholder="Exam (70%)" required step="0.25"></td>
+                    <td><input type="number" id="workshop_ds" placeholder="DS (15%)" required step="0.25"></td>
+                    <td><input type="number" id="workshop_tp" placeholder="TP (15%)" required step="0.25"></td>
+                </tr>
+
+                <!-- Architecture Module -->
+                <tr>
+                    <td>Architecture</td>
+                    <td><input type="number" id="architecture_exam" placeholder="Exam (70%)" required step="0.25"></td>
+                    <td><input type="number" id="architecture_ds" placeholder="DS (15%)" required step="0.25"></td>
+                    <td><input type="number" id="architecture_tp" placeholder="TP (15%)" required step="0.25"></td>
+                </tr>
+
+                <!-- Logic Formel Module -->
+                <tr>
+                    <td>Logic Formel</td>
+                    <td><input type="number" id="logic_exam" placeholder="Exam (70%)" required step="0.25"></td>
+                    <td><input type="number" id="logic_ds" placeholder="DS (20%)" required step="0.25"></td>
+                    <td><input type="number" id="logic_tp" placeholder="TP (10%)" required step="0.25"></td>
+                </tr>
+
+                <!-- Operating Systems Module -->
+                <tr>
+                    <td>Operating Systems (OS)</td>
+                    <td><input type="number" id="os_exam" placeholder="Exam (70%)" required step="0.25"></td>
+                    <td><input type="number" id="os_ds" placeholder="DS (15%)" required step="0.25"></td>
+                    <td><input type="number" id="os_tp" placeholder="TP (15%)" required step="0.25"></td>
+                </tr>
+
+                <!-- Multimedia Module -->
+                <tr>
+                    <td>Multimedia</td>
+                    <td><input type="number" id="multimedia_exam" placeholder="Exam (70%)" required step="0.25"></td>
+                    <td><input type="number" id="multimedia_ds" placeholder="DS (15%)" required step="0.25"></td>
+                    <td><input type="number" id="multimedia_tp" placeholder="TP (15%)" required step="0.25"></td>
+                </tr>
+
+                <!-- English Module -->
+                <tr>
+                    <td>English</td>
+                    <td><input type="number" id="english_ds1" placeholder="DS1 (40%)" required step="0.25"></td>
+                    <td><input type="number" id="english_ds2" placeholder="DS2 (40%)" required step="0.25"></td>
+                    <td><input type="number" id="english_orl" placeholder="ORL (20%)" required step="0.25"></td>
+                </tr>
+
+                <!-- Business Communication Module -->
+                <tr>
+                    <td>Business Communication</td>
+                    <td><input type="number" id="business_ds1" placeholder="DS1 (40%)" required step="0.25"></td>
+                    <td><input type="number" id="business_ds2" placeholder="DS2 (40%)" required step="0.25"></td>
+                    <td><input type="number" id="business_orl" placeholder="ORL (20%)" required step="0.25"></td>
+                </tr>
+
+            </table>
+
+            <center><button type="submit">Calculate Average</button></center> 
+        </form>
+
+        <div id="result">
+            <h2>Your Average: <span id="averageResult">--</span></h2>
+        </div>
+    </div>
+
+    <script src="semestre1.js"></script>
+</body>
+</html>

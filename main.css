@@ -1,0 +1,67 @@
+.logo-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logo {
+    width: 200px; /* Adjust size as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 60%;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.module {
+    margin: 20px 0;
+}
+label{
+    display:inline-block;
+    margin: auto;
+}
+
+input {
+    margin-right: 10px;
+    padding: 5px;
+    width: 100px;
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    text-align: center;
+    margin-top: 20px;
+}
+table{
+    margin: auto;
+}
